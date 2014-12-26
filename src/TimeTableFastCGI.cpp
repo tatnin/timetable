@@ -41,7 +41,7 @@ class TimeSheet : virtual public fastcgi::Component, virtual public fastcgi::Han
         void updateInfo(mongo::BSONObj p, mongo::BSONObj newp, std::stringstream &inStream){
             try {
                 c.update("table.testData", p, newp, true);
-                if (c.getLastError().length() == 0){
+                if (c.getLastError().length() != 0){
                     inStream << "Error update\n";    
                 }
             } catch( const mongo::DBException &e ) {
