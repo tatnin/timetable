@@ -12,4 +12,4 @@ GET /api/timetable/course/COURSE/group/GROUP/ - группы
 GET /api/timetable/course/COURSE/group/GROUP/day/DAY - расписание группы на конкретный день недели
 
 POST /api/timetable/course/COURSE/group/GROUP/ - добавить\изменить расписание
-h
+
