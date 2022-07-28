@@ -13,3 +13,4 @@ GET /api/timetable/course/COURSE/group/GROUP/day/DAY - расписание гр
 
 POST /api/timetable/course/COURSE/group/GROUP/ - добавить\изменить расписание
 
+aa
